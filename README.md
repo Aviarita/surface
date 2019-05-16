@@ -1,6 +1,8 @@
 # Surface library
 
-All functions, except for load_texture and create_font, can only be called from a paint callback
+
+
+**All of the following functions, except for load_texture and create_font, can only be called from a paint callback**
 
 ### renderer.create_font(windows_font_name, tall, weight, flags)
     windows_font_name - Windows font name, only supports .ttf.
