@@ -21,8 +21,8 @@ Table of Contents
 ### renderer.create_font(windows_font_name, tall, weight, flags)
     windows_font_name - Windows font name, only supports .ttf.
     tall              - Font size.
-    weight            - Font weight.
-    flags             - Text flags
+    [weight](https://github.com/Aviarita/surface#create_font_weights)            - Font thickness/weight.
+    [flags](https://github.com/Aviarita/surface#create_font_flags)            - Text flags, this can be a table, for example **{0x001, 0x002}**
     Returns a special value that can be passed to draw_text, draw_localized_string, test_font and get_text_size
     
 ### renderer.draw_text(x, y, r, g, b, a, font, text)
@@ -140,3 +140,31 @@ Table of Contents
 ### renderer.load_texture(filename)
     filename - .vmt file form csgo/materials
     Returns an integer that can be passed to renderer.texture
+    
+# Custom argument types
+    
+### create_font_weights
+    THIN       = 100
+    EXTRALIGHT = 200
+    LIGHT      = 300
+    NORMAL     = 400
+    MEDIUM     = 500
+    SEMIBOLD   = 600
+    BOLD       = 700
+    EXTRABOLD  = 800
+    HEAVY      = 900
+    
+### create_font_flags 
+    FONTFLAG_NONE           = 0x000
+    FONTFLAG_ITALIC         = 0x001
+    FONTFLAG_UNDERLINE      = 0x002
+    FONTFLAG_STRIKEOUT      = 0x004
+    FONTFLAG_SYMBOL         = 0x008
+    FONTFLAG_ANTIALIAS      = 0x010
+    FONTFLAG_GAUSSIANBLUR   = 0x020
+    FONTFLAG_ROTARY         = 0x040
+    FONTFLAG_DROPSHADOW     = 0x080
+    FONTFLAG_ADDITIVE       = 0x100
+    FONTFLAG_OUTLINE        = 0x200
+    FONTFLAG_CUSTOM         = 0x400
+    FONTFLAG_BITMAP         = 0x800
