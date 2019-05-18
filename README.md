@@ -18,11 +18,11 @@ Table of Contents
 [**get_text_size**](https://github.com/Aviarita/surface#rendererget_text_sizefont-text)<br>
 [**load_texture**](https://github.com/Aviarita/surface#rendererload_texturefilename)<br>
 
-### renderer.create_font(windows_font_name, tall, weight, flags)
+### renderer.create_font(windows_font_name, tall, [weight](https://github.com/Aviarita/surface/blob/master/README.md#create_font_weights), [flags](https://github.com/Aviarita/surface/blob/master/README.md#create_font_flags))
     windows_font_name - Windows font name, only supports .ttf.
     tall              - Font size.
-    [weight](https://github.com/Aviarita/surface/blob/master/README.md#create_font_weights)            - Font thickness/weight.
-    [flags](https://github.com/Aviarita/surface/blob/master/README.md#create_font_flags)            - Text flags, this can be a table, for example **{0x001, 0x002}**
+    weight            - Font thickness/weight.
+    flags             - Text flags, this can be a table, for example **{0x001, 0x002}**
     Returns a special value that can be passed to draw_text, draw_localized_string, test_font and get_text_size
     
 ### renderer.draw_text(x, y, r, g, b, a, font, text)
