@@ -3,20 +3,20 @@
 
 Table of Content
 
-[**renderer.create_font**](https://github.com/Aviarita/surface#renderercreate_fontwindows_font_name-tall-weight-flags)<br></br>
-[**renderer.draw_text**](https://github.com/Aviarita/surface#rendererdraw_textx-y-r-g-b-a-font-text)<br></br>
-[**renderer.draw_localized_text**](https://github.com/Aviarita/surface#rendererdraw_localized_textx-y-r-g-b-a-font-text)<br></br>
-[**renderer.draw_line**](https://github.com/Aviarita/surface#rendererdraw_linex0-y0-x1-y1-r-g-b-a)<br></br>
-[**renderer.draw_filled_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_rectx-y-w-h-r-g-b-a)<br></br>
-[**renderer.draw_outlined_rect**](https://github.com/Aviarita/surface#rendererdraw_outlined_rectx-y-w-h-r-g-b-a)<br></br>
-[**renderer.draw_filled_outlined_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_outlined_rectx-y-w-h-r0-g0-b0-a0-r1-g1-b1-a1)<br></br>
-[**renderer.draw_filled_gradient_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_gradient_rectx-y-w-h-r0-g0-b0-a0-r1-g1-b1-a1-horizontal)<br></br>
-[**renderer.draw_outlined_circle**](https://github.com/Aviarita/surface#rendererdraw_outlined_circlex-y-r-g-b-a-radius-segments)<br></br>
-[**renderer.test_font**](https://github.com/Aviarita/surface#renderertest_fontx-y-r-g-b-a-font)<br></br>
-[**renderer.get_mouse_pos**](https://github.com/Aviarita/surface#rendererget_mouse_pos)<br></br>
-[**renderer.set_mouse_pos**](https://github.com/Aviarita/surface#rendererset_mouse_posx-y)<br></br>
-[**renderer.get_text_size**](https://github.com/Aviarita/surface#rendererget_text_sizefont-text)<br></br>
-[**renderer.load_texture**](https://github.com/Aviarita/surface#rendererload_texturefilename)<br></br>
+[**renderer.create_font**](https://github.com/Aviarita/surface#renderercreate_fontwindows_font_name-tall-weight-flags)<br>
+[**renderer.draw_text**](https://github.com/Aviarita/surface#rendererdraw_textx-y-r-g-b-a-font-text)<br>
+[**renderer.draw_localized_text**](https://github.com/Aviarita/surface#rendererdraw_localized_textx-y-r-g-b-a-font-text)<br>
+[**renderer.draw_line**](https://github.com/Aviarita/surface#rendererdraw_linex0-y0-x1-y1-r-g-b-a)<br>
+[**renderer.draw_filled_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_rectx-y-w-h-r-g-b-a)<br>
+[**renderer.draw_outlined_rect**](https://github.com/Aviarita/surface#rendererdraw_outlined_rectx-y-w-h-r-g-b-a)<br>
+[**renderer.draw_filled_outlined_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_outlined_rectx-y-w-h-r0-g0-b0-a0-r1-g1-b1-a1)<br>
+[**renderer.draw_filled_gradient_rect**](https://github.com/Aviarita/surface#rendererdraw_filled_gradient_rectx-y-w-h-r0-g0-b0-a0-r1-g1-b1-a1-horizontal)<br>
+[**renderer.draw_outlined_circle**](https://github.com/Aviarita/surface#rendererdraw_outlined_circlex-y-r-g-b-a-radius-segments)<br>
+[**renderer.test_font**](https://github.com/Aviarita/surface#renderertest_fontx-y-r-g-b-a-font)<br>
+[**renderer.get_mouse_pos**](https://github.com/Aviarita/surface#rendererget_mouse_pos)<br>
+[**renderer.set_mouse_pos**](https://github.com/Aviarita/surface#rendererset_mouse_posx-y)<br>
+[**renderer.get_text_size**](https://github.com/Aviarita/surface#rendererget_text_sizefont-text)<br>
+[**renderer.load_texture**](https://github.com/Aviarita/surface#rendererload_texturefilename)<br>
 
 ### renderer.create_font(windows_font_name, tall, [weight](https://github.com/Aviarita/surface/blob/master/README.md#create_font_weights), [flags](https://github.com/Aviarita/surface/blob/master/README.md#create_font_flags))
     windows_font_name - Windows font name, only supports .ttf.
