@@ -22,7 +22,7 @@ Table of Content
     windows_font_name - Windows font name, only supports .ttf.
     tall              - Font size.
     weight            - Font thickness/weight.
-    flags             - Text flags, this can be a table, for example **{0x001, 0x002}**
+    flags             - Text flags, this can be a table, for example {0x001, 0x002}
     Returns a special value that can be passed to draw_text, draw_localized_string, test_font and get_text_size
     
 ### renderer.draw_text(x, y, r, g, b, a, font, text)
