@@ -4,6 +4,7 @@
 Table of Content
 
 [**renderer.create_font**](https://github.com/Aviarita/surface#renderercreate_fontwindows_font_name-tall-weight-flags)<br>
+[**renderer.localize_string**](https://github.com/Aviarita/surface#rendererlocalize_stringtext)<br>
 [**renderer.draw_text**](https://github.com/Aviarita/surface#rendererdraw_textx-y-r-g-b-a-font-text)<br>
 [**renderer.draw_localized_text**](https://github.com/Aviarita/surface#rendererdraw_localized_textx-y-r-g-b-a-font-text)<br>
 [**renderer.draw_line**](https://github.com/Aviarita/surface#rendererdraw_linex0-y0-x1-y1-r-g-b-a)<br>
@@ -34,6 +35,10 @@ Table of Content
     a - Alpha (1-255)
     font - Returned value of renderer.create_font
     text - Text that will be drawn
+    
+### renderer.localize_string(text)
+    text - String to localize
+    Returns the localized string
     
 ### renderer.draw_localized_text(x, y, r, g, b, a, font, text)
     x - Screen coordinate
