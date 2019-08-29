@@ -37,7 +37,7 @@ Table of Content
     text - Text that will be drawn
     
 ### renderer.localize_string(text)
-    text - String to localize
+    text - #SFUI_ or other localized strings from csgo/resources/csgo_<language>.txt, that will be drawn
     Returns the localized string
     
 ### renderer.draw_localized_text(x, y, r, g, b, a, font, text)
