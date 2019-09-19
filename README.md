@@ -143,7 +143,7 @@ Table of Content
     Returns width, height.
     
 ### renderer.load_texture(filename)
-    filename - .vmt file form csgo/materials
+    filename - .vmt file from csgo/materials
     Returns an integer that can be passed to renderer.texture
     
 # Custom argument types
